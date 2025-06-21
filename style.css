@@ -1,0 +1,100 @@
+/* Google Font */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #3f51b5;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+}
+
+/* Sections */
+section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  color: #3f51b5;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* Skills */
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.skills-list i {
+  margin-right: 10px;
+  color: #3f51b5;
+}
+
+/* Project Card */
+.project-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.project-card a {
+  color: #3f51b5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Contact */
+#contact a {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #3f51b5;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 1.5rem 1rem;
+  }
+
+  .skills-list li {
+    font-size: 1rem;
+  }
+}
