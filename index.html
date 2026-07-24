@@ -1,52 +1,655 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Siddhi | Web Designer</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Siddhi Sahu | Full Stack & Android Developer</title>
+
+    <meta name="description"
+        content="Siddhi Sahu - IT Developer specializing in Angular, .NET, Android, Java, SQL and modern web development.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>Siddhi</h1>
-    <p>Front-End Developer | HTML & CSS | SQL</p>
-  </header>
+    <!-- CURSOR -->
+    <div class="cursor"></div>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm Siddhi, a passionate web designer currently pursuing a diploma in Information Technology. I love creating clean and responsive websites using HTML and CSS.</p>
-  </section>
+    <!-- NAVBAR -->
+    <nav class="navbar">
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li><i class="fab fa-html5"></i> HTML5</li>
-      <li><i class="fab fa-css3-alt"></i> CSS3</li>
-      <li><i class="fas fa-keyboard"></i> Typing</li>
-    </ul>
-  </section>
+        <div class="logo">
+            <span>&lt;</span> Siddhi <span>/&gt;</span>
+        </div>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>🍔 Foodie Website</h3>
-      <p>A responsive food-themed website using HTML & CSS.</p>
-      <a href="https://siddhi-2609.github.io/Foodie-s/" target="_blank">Visit Live</a>
-    </div>
-  </section>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Journey</a>
+            <a href="#contact">Contact</a>
+        </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:siddhi.sahu2609.com">siddhi.sahu2609.com</a></p>
-    <p>GitHub: <a href="https://github.com/siddhi-2609" target="_blank">github.com/siddhi-2609</a></p>
-  </section>
+        <button id="themeToggle" class="theme-btn">
+            <i class="fas fa-moon"></i>
+        </button>
 
-  <footer>
-    <p>© 2025 Siddhi. All rights reserved.</p>
-  </footer>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="intro">
+                👋 Hello, I'm
+            </p>
+
+            <h1>
+                Siddhi <span>Sahu</span>
+            </h1>
+
+            <h2>
+                I Build <span id="typing"></span>
+            </h2>
+
+            <p class="hero-description">
+                An IT developer passionate about creating modern websites,
+                powerful web applications and smart Android applications.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    Explore My Work
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Let's Connect
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://github.com/siddhi-2609" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/siddhi-sahu-521383367/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:siddhi.sahu2609@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- CODE CARD -->
+
+        <div class="code-card">
+
+            <div class="code-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+            </div>
+
+            <div class="code-content">
+
+                <p>
+                    <span class="purple">const</span>
+                    developer = {
+                </p>
+
+                <p class="indent">
+                    name:
+                    <span class="green">"Siddhi Sahu"</span>,
+                </p>
+
+                <p class="indent">
+                    role:
+                    <span class="green">"Full Stack Developer"</span>,
+                </p>
+
+                <p class="indent">
+                    skills: [
+                </p>
+
+                <p class="indent2">
+                    <span class="orange">"Angular"</span>,
+                    <span class="orange">".NET"</span>,
+                </p>
+
+                <p class="indent2">
+                    <span class="orange">"Java"</span>,
+                    <span class="orange">"Android"</span>,
+                </p>
+
+                <p class="indent2">
+                    <span class="orange">"SQL"</span>
+                </p>
+
+                <p class="indent">
+                    ]
+                </p>
+
+                <p>
+                    };
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+            <span>Scroll to explore</span>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <span>01.</span>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <h3>
+                    I turn ideas into
+                    <span>digital experiences.</span>
+                </h3>
+
+                <p>
+                    I'm Siddhi Sahu, an Information Technology student and
+                    developer passionate about building useful and attractive
+                    digital products.
+                </p>
+
+                <p>
+                    I have experience working with frontend technologies,
+                    backend development, databases and Android application
+                    development.
+                </p>
+
+                <p>
+                    My goal is to create software that is not only functional,
+                    but also simple, beautiful and enjoyable to use.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Let's work together
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="about-stats">
+
+                <div class="stat-card">
+                    <h3>10+</h3>
+                    <p>Technologies</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>5+</h3>
+                    <p>Projects</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>4+</h3>
+                    <p>Years Learning</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>100%</h3>
+                    <p>Passion</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-title">
+            <span>02.</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <p class="section-subtitle">
+            Technologies and tools I use to build digital products.
+        </p>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Semantic & accessible web structure</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Responsive & modern UI design</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Interactive web experiences</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-angular"></i>
+                <h3>Angular</h3>
+                <p>Modern frontend applications</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>.NET</h3>
+                <p>Powerful backend APIs</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+                <p>Android application development</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>SQL</h3>
+                <p>Database management & queries</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-github"></i>
+                <h3>Git & GitHub</h3>
+                <p>Version control & collaboration</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section">
+
+        <div class="section-title">
+            <span>03.</span>
+            <h2>Featured Projects</h2>
+        </div>
+
+        <p class="section-subtitle">
+            Some things I've built while learning and solving real problems.
+        </p>
+
+
+        <div class="projects-grid">
+
+
+            <!-- INNOTM -->
+
+            <div class="project-card featured">
+
+                <div class="project-top">
+                    <i class="far fa-folder-open folder-icon"></i>
+
+                    <div>
+                        <a href="https://github.com/" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>INNOTM Digital Wallet</h3>
+
+                <p>
+                    A full-stack digital wallet application that allows users
+                    to manage money, add funds, send money and track their
+                    transactions securely.
+                </p>
+
+                <ul class="features">
+                    <li>JWT Authentication</li>
+                    <li>Wallet Management</li>
+                    <li>Money Transfer</li>
+                    <li>OTP Password Recovery</li>
+                </ul>
+
+                <div class="tech-stack">
+                    <span>Angular</span>
+                    <span>ASP.NET Core</span>
+                    <span>SQL Server</span>
+                    <span>EF Core</span>
+                </div>
+
+            </div>
+
+
+            <!-- LIFESYNC -->
+
+            <div class="project-card">
+
+                <div class="project-top">
+                    <i class="far fa-folder-open folder-icon"></i>
+
+                    <div>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>LifeSync Smart Assistant</h3>
+
+                <p>
+                    A smart Android application designed to help users manage
+                    their daily life through productivity tools and intelligent
+                    features.
+                </p>
+
+                <ul class="features">
+                    <li>Expense Tracker</li>
+                    <li>To-Do Manager</li>
+                    <li>Notes</li>
+                    <li>Emergency SOS</li>
+                </ul>
+
+                <div class="tech-stack">
+                    <span>Java</span>
+                    <span>Android</span>
+                    <span>Room DB</span>
+                    <span>Firebase</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOODIE -->
+
+            <div class="project-card">
+
+                <div class="project-top">
+                    <i class="far fa-folder-open folder-icon"></i>
+
+                    <div>
+                        <a href="https://github.com/siddhi-2609" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://siddhi-2609.github.io/Foodie-s/"
+                            target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Foodie's Website</h3>
+
+                <p>
+                    A responsive food website with a clean and attractive
+                    interface designed for food lovers.
+                </p>
+
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                </div>
+
+            </div>
+
+
+            <!-- GYM -->
+
+            <div class="project-card">
+
+                <div class="project-top">
+                    <i class="far fa-folder-open folder-icon"></i>
+
+                    <div>
+                        <a href="https://siddhi-2609.github.io/Gym/"
+                            target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Gym Website</h3>
+
+                <p>
+                    A modern responsive fitness website created with a strong
+                    visual design and responsive layout.
+                </p>
+
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                </div>
+
+            </div>
+
+
+            <!-- PORTFOLIO -->
+
+            <div class="project-card">
+
+                <div class="project-top">
+                    <i class="far fa-folder-open folder-icon"></i>
+
+                    <div>
+                        <a href="https://siddhi-2609.github.io/portfolio/"
+                            target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    My previous portfolio website created to showcase my skills,
+                    projects and development journey.
+                </p>
+
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience" class="section experience-section">
+
+        <div class="section-title">
+            <span>04.</span>
+            <h2>My Journey</h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        Education
+                    </span>
+
+                    <h3>Diploma in Information Technology</h3>
+
+                    <p>
+                        Studying Information Technology with a focus on
+                        programming, web development, databases and software
+                        development.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        Vocational Training
+                    </span>
+
+                    <h3>Software Development Intern</h3>
+
+                    <p>
+                        Completed a 4-week vocational training at Skyvo
+                        Technologies Pvt. Ltd. and worked on a full-stack
+                        digital wallet project.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        Current Focus
+                    </span>
+
+                    <h3>Building Real-World Applications</h3>
+
+                    <p>
+                        Currently developing web applications, Android apps
+                        and exploring AI-powered software solutions.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="contact-content">
+
+            <span class="contact-label">
+                05. What's Next?
+            </span>
+
+            <h2>Let's build something great.</h2>
+
+            <p>
+                I'm always open to discussing new projects, creative ideas
+                or opportunities to be part of your vision.
+            </p>
+
+            <a href="mailto:siddhi.sahu2609@gmail.com"
+                class="btn primary-btn">
+
+                Say Hello
+                <i class="fas fa-paper-plane"></i>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-socials">
+
+            <a href="https://github.com/siddhi-2609" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:siddhi.sahu2609@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+
+        <p>
+            Designed & Built by <strong>Siddhi Sahu</strong>
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
